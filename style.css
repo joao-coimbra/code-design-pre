@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap");
+* {
+  font-family: "Source Code Pro", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+pre {
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: #161822;
+  color: #C4C9D4;
+}
+pre span.l-i, pre span.l-r, pre span.l-f {
+  color: #c48cf8;
+  font-style: italic;
+}
+pre span.l-str {
+  color: #6cc771;
+}
+
+/*# sourceMappingURL=style.css.map */
